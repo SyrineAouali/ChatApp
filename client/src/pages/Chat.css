@@ -1,0 +1,4 @@
+.chat-container {
+    height: calc(100vh - 70px); /* 70px correspond à la hauteur de la barre de navigation si elle est fixe */
+    overflow-y: auto;
+}

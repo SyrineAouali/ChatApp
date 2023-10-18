@@ -1,0 +1,21 @@
+.home {
+   background-image: url('../assets/bg.webp');
+    background-size: cover; 
+    height: 100vh;
+  }
+  .custom-title {
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px #000000;
+    font-style: italic;
+  }
+.fond{
+    background-color: purple;
+}
+  
+
+  @media (min-width: 768px) {
+    .home {
+      height: calc(100vh - 56px);
+    }
+  }
